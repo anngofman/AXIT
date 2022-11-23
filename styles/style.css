@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+* {margin: 0;
+box-sizing: border-box; 
+}
+body {
+  background: #FFFFFF
+}
+.page {
+  width: 1171px;
+  height: 665px;
+  margin: 50px auto 58px;
+  text-align: center;
+}
+.page__title {
+height: 150px;
+
+}
+.title__content {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 53px 0;
+}
+hr {
+  width: 170px;
+  height: 0px;
+  border: 1px solid #EC7979;
+  margin: 0 auto;
+}
+.page__subtitle {
+  margin: 40px auto 55px;
+  font-family: 'Raleway';
+  font-size: 18px;
+}
+.page__main {
+  height: 383px;
+}
+.main__section {
+width: 370px;
+margin: 15px 15px 0 0;
+float: left;
+}
+.section__title {
+  height: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  padding: 30px 0;
+}
+.section__text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 15px;
+}
+.tabs {
+  font-size: 0;
+  width: 1170px;
+  height: 540px;
+  margin: 50px auto 50px;
+}
+
+.tabs>input[type="radio"] {
+  display: none;
+}
+
+.tabs>div {
+
+  display: none;
+  border: 1px solid #e0e0e0;
+
+  margin-top: 10px;
+}
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3 {
+  display: block;
+}
+
+.tabs>label {
+  padding: 10px 70px;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.tabs>label:not(:first-of-type) {
+  border-left: none;
+}
+
+.tabs>input[type="radio"]:checked+label {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #C6CBCD;
+  border-left: 1px solid #C6CBCD;
+  border-right: 1px solid #C6CBCD;
+  border-radius: 5px 5px 0px 0px;
+}
+#content-1 {
+  height: 500px;
+  width: 1170px;
+}
+.content-text {
+width: 570px;
+height: 500px;
+display: inline-block;
+}
+.content__img {
+float: right;
+display: inline-block;
+height: 500px;
+width: 470px;
+overflow:hidden;   
+position:relative;
+}
+.text {
+  padding: 0 30px 54px 100px;
+}
+.text__title {
+  width: 570px;
+  height: 124px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 40px 0;
+}
+.text__text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  width: 570px;
+  height: 210px;
+  margin: 27px 0;
+}
+button {
+border: 0;
+height: 58px;
+width: 270px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size: 14px;
+padding: 0;
+background-color: #EC7979;
+color: #fff;
+}
