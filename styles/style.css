@@ -36,6 +36,12 @@ body {
   font-size: 14px;
   padding: 28px 0;
 }
+.main-nav__item:hover{
+background: #EC7979;
+}
+.main-nav__item:active{
+  background: #AB4949;
+}
 
 .main-nav__link {
   text-decoration: none;
@@ -115,7 +121,15 @@ p {
   font-weight: 600;
   font-size: 18px;
 }
-
+.banner__btn:hover{
+  border:2px solid #EC7979;
+  color: #EC7979;
+  }
+  
+.banner__btn:active{
+    background: #AB4949;
+    color: white;
+  }
 h4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
@@ -176,7 +190,14 @@ span {
   font-size: 15px;
 }
 
-
+.form__btm:hover{
+  background: #AB4949;
+  }
+  
+.form__btm:active{
+  background:#EC7979;
+  box-shadow: 0px 0px 10px 0px #AB4949;
+  }
 
 .social {
   background: #F8EFEF;
