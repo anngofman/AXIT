@@ -4,111 +4,409 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
-  <title>AXIT</title>
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Level 3</title>
+  <link rel="stylesheet" href="./new.css">
 </head>
 
 <body>
-  <!--block tabs-->
-  <div class="tabs">
-    <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
-    <label for="tab-btn-1">TAB 1</label>
-    <input type="radio" name="tab-btn" id="tab-btn-2" value="">
-    <label for="tab-btn-2">TAB 2</label>
-    <input type="radio" name="tab-btn" id="tab-btn-3" value="">
-    <label for="tab-btn-3">TAB 3</label>
-    <div class="content content1">
-      <div class="content__text text">
-        <div class="text__title">
-          <p>Tabs with soft transitioning effect.</p>
+
+  <!--header-->
+
+  <header class="page-header">
+    <nav class="page-header__main-nav main-nav">
+      <a href="" class="main-nav__logo">
+        <img src="./image/AXIT1.png" alt="">
+        <img src="./image/AXIT2.png" alt=""></a>
+      <ul class="main-nav__list ">
+        <li class="main-nav__item">
+          <a href="" class="main-nav__link">Features</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="" class="main-nav__link">About</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="" class="main-nav__link">Pricing</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="" class="main-nav__link">Reviews</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="" class="main-nav__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--main-->
+
+  <main class="main">
+
+    <!--banner-->
+
+    <section class="banner">
+      <div class="container">
+        <div class="banner__inner">
+          <section class="banner__content content">
+            <div class="content__logo">
+              <a href="">
+                <img src="./image/AXIT11.jpg" alt="">
+                <img src="./image/AXIT22.png" alt="">
+              </a>
+            </div>
+            <div class="content__title">
+              <h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+            </div>
+            <hr class="separator">
+            <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <button class="banner__btn" type="button">Download</button>
+          </section>
+          <section class="banner__form form">
+            <form action="#" method="get">
+              <div class="form__inner">
+                <h4 class="form__title">Try Your <span> FREE </span>Trial Today</h4>
+                <div class="form__item">
+                  <input type="text" placeholder="Name">
+                  <input type="email" placeholder="Email">
+                  <input type="password" placeholder="Password">
+                  <button class="form__btm">Get Started</button>
+                </div>
+              </div>
+            </form>
+          </section>
         </div>
-        <div class="text__description">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> euismod<br>
-            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et<br> viverra<br>
-            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-            penatibus et magnis dis parturient montes.<br>
-            <br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> euismod<br>
-            bibendum laoreet.
+      </div>
+    </section>
+    <!--social-->
+
+    <section class="social">
+      <div class="container">
+        <div class="social__content content">
+          <h4 class="content__title">Social Media</h4>
+          <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aenean euismod bibendum laoreet.
           </p>
         </div>
-        <button>Download</button>
-      </div>
-      <div class="content__img">
-        <img src="./image/Rectangle 111.jpg" alt="">
-      </div>
-    </div>
-    <div class="content content2">
-      <div class="content__text text">
-        <div class="text__title">
-          <p>Курортный посёлок Нарочь</p>
+        <div class="social__contacts">
+          <a href="#"><img src="./image/facebook.png" alt=""></a>
+          <a href="#"><img src="./image/twitter.png" alt=""></a>
+          <a href="#"><img src="./image/in.png" alt=""></a>
+          <a href="#"><img src="./image/pinterest.png" alt=""></a>
+          <a href="#"><img src="./image/insta.png" alt=""></a>
+          <a href="#"><img src="./image/git.png" alt=""></a>
+          <a href="#"><img src="./image/wifw.png" alt=""></a>
         </div>
-        <div class="text__description">
-          <p>Добраться до посёлка можно из Минска на маршрутках, которые курсируют регулярно и отправляются с
-            Московского вокзала,
-            а на собственном транспорте нужно ехать от Минска до поселка Нарочь, расстояние между ними примерно 160
-            км.
+      </div>
+    </section>
+
+    <!--tabs-->
+
+    <section class="tabs container">
+      <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+      <label for="tab-btn-1">TAB 1</label>
+      <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+      <label for="tab-btn-2">TAB 2</label>
+      <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+      <label for="tab-btn-3">TAB 3</label>
+      <div class="content content1">
+        <div class="tabs__inner-title">
+          <div class="content__title">
+            <h4>Tabs with soft transitioning effect.</h4>
+          </div>
+          <div class="content__text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> euismod<br>
+              bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et<br> viverra<br>
+              justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+              penatibus et magnis dis parturient montes.<br>
+              <br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> euismod<br>
+              bibendum laoreet.
+            </p>
+          </div>
+          <button class="content__btn">Download</button>
+        </div>
+        <div class="content__img">
+          <img src="./image/Rectangle 111.jpg" alt="">
+        </div>
+      </div>
+      <div class="content content2">
+        <div class="tabs__inner">
+          <div class="content__title">
+            <h4>Курортный посёлок Нарочь</h4>
+          </div>
+          <div class="content__text">
+            <p>
+              Добраться до посёлка можно из Минска на маршрутках, которые курсируют регулярно и отправляются с
+              Московского вокзала,
+              а на собственном транспорте нужно ехать от Минска до поселка Нарочь, расстояние между ними примерно 160
+              км.
+            </p>
+          </div>
+          <button class="content__btn">Download</button>
+        </div>
+        <div class="content__img">
+          <img src="./image/Rectangle 111.jpg" alt="">
+        </div>
+      </div>
+      <div class="content content3">
+        <div class="tabs__inner">
+          <div class="content__title">
+            <h4>Курортный посёлок Нарочь</h4>
+          </div>
+          <div class="content__text">
+            <p>
+              Добраться до посёлка можно из Минска на маршрутках, которые курсируют регулярно и отправляются с
+              Московского вокзала,
+              а на собственном транспорте нужно ехать от Минска до поселка Нарочь, расстояние между ними примерно 160
+              км.
+            </p>
+          </div>
+          <button class="content__btn">Download</button>
+        </div>
+        <div class="content__img">
+          <img src="./image/kat.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!--awesome-->
+
+    <section class="awesome container">
+      <div class="awesome__content content">
+        <div class="awesome__inner-title">
+          <h2 class="content__heading">WHY THIS IS AWESOME</h2>
+          <hr class="content__separator">
+        </div>
+        <div class="content__desc">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="awesome__main main">
+        <div class="main__section">
+          <img src="/image/about_icon_1.jpg" alt="icon1">
+          <h4 class="section__title">Thoughtful Design</h4>
+          <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+        </div>
+        <div class="main__section">
+          <img src="/image/about_icon_2.jpg" alt="icon1">
+          <h4 class="section__title">Thoughtful Design</h4>
+          <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+        </div>
+        <div class="main__section">
+          <img src="./image/about_icon_3.jpg" alt="icon1">
+          <h4 class="section__title">Thoughtful Design</h4>
+          <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--pricing-->
+
+    <section class="pricing">
+      <div class="container">
+        <div class="pricing__content content">
+          <div class="pricing__inner-title">
+            <h2 class="content__heading">Pricing options</h2>
+            <hr class="content__separator">
+          </div>
+          <div class="content__desc">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="pricing__main main">
+          <div class="main__section section-1">
+            <div class="section__item-title">Basic</div>
+            <div class="section__item-price">$10</div>
+            <div class="section__item">Free for life</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+          </div>
+          <div class="main__section section-2">
+            <div class="section__item-title">Basic2</div>
+            <div class="section__item-price">$10</div>
+            <div class="section__item">Free for life</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+          </div>
+          <div class="main__section section-3">
+            <div class="section__item-title">Basic3</div>
+            <div class="section__item-price">$10</div>
+            <div class="section__item">Free for life</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+            <div class="section__item">1 gb of space</div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--reviews-->
+
+    <section class="reviews container">
+      <div class="reviews__content content">
+        <div class="reviews__inner-title">
+          <h2 class="content__heading">Pricing options</h2>
+          <hr class="content__separator">
+        </div>
+        <div class="content__desc">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
-        <button>Download</button>
-      </div>
-      <div class="content__img">
-        <img src="./image/ozero_naroch.jpg" alt="">
-      </div>
-    </div>
-    <div class="content content3">
-      <div class="content__text text">
-        <div class="text__title">
-          <p>Tabs with soft transitioning effect.</p>
+        <div class="reviews__main main">
+          <div class="main__section section-1">
+            <div class="customers">
+              <div class="rectangle">
+                <p>
+                  Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit. Doloribus
+                  accusamus expedita repellat similique
+                  odio aspernatur ex, architecto eaque
+                  quo suscipit.
+                </p>
+              </div>
+              <div class="polygon">
+              </div>
+            </div>
+            <div class="person">
+              <div class="avatar">
+                <img src="/image/person1.png" alt="">
+              </div>
+              <div class="opisanie">
+                <h4 class="persone__name">Davis Rhiel Madsen</h4>
+                <p class="persone__proff">Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="main__section section-2">
+            <div class="customers">
+              <div class="rectangle">
+                <p>
+                  Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit. Doloribus
+                  accusamus expedita repellat similique
+                  odio aspernatur ex, architecto eaque
+                  quo suscipit.
+                </p>
+              </div>
+              <div class="polygon">
+              </div>
+            </div>
+            <div class="person">
+              <div class="avatar">
+                <img src="/image/person1.png" alt="">
+              </div>
+              <div class="opisanie">
+                <h4 class="persone__name">Davis Rhiel Madsen</h4>
+                <p class="persone__proff">Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="main__section section-3">
+            <div class="customers">
+              <div class="rectangle">
+                <p>
+                  Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit. Doloribus
+                  accusamus expedita repellat similique
+                  odio aspernatur ex, architecto eaque
+                  quo suscipit.
+                </p>
+              </div>
+              <div class="polygon">
+              </div>
+            </div>
+            <div class="person">
+              <div class="avatar">
+                <img src="/image/person1.png" alt="">
+              </div>
+              <div class="opisanie">
+                <h4 class="persone__name">Davis Rhiel Madsen</h4>
+                <p class="persone__proff">Manager</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="text__description">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> euismod<br>
-            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et<br> viverra<br>
-            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-            penatibus et magnis dis parturient montes.<br>
-            <br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> euismod<br>
-            bibendum laoreet.
-          </p>
+    </section>
+
+    <!--banner-2-->
+
+    <section class="banner-2">
+      <div class="container">
+        <div class="banner-2__content content ">
+          <div class="banner-2__inner-title">
+            <h2 class="content__heading">STYLISH AXURE DESIGN</h2>
+            <hr class="content__separator">
+          </div>
+          <div class="content__desc">
+            <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
+          </div>
+          <button class="banner__btn--width">Download</button>
         </div>
-        <button>Download</button>
       </div>
-      <div class="content__img">
-        <img src="./image/kat.jpg" alt="">
+    </section>
+
+    <!--contact us-->
+
+    <section class="contacts container">
+      <div class="contacts__content content">
+        <div class="contacts__inner-title">
+          <h2 class="content__heading">Contact us</h2>
+          <hr class="content__separator">
+        </div>
+        <div class="content__desc">
+          <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
+        </div>
       </div>
+      <form action="#" method="get">
+        <div class="contact__form form">
+          <div class="form__item">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+
+          </div>
+
+          <textarea class="form__message" placeholder="Message"></textarea>
+
+        </div>
+      </form>
+      <button class="content__btn">Send Message</button>
+    </section>
+  </main>
+
+  <!--footer-->
+
+  <footer class="footer">
+    <div class="footer__social">
+      <a href="#"><img src="./image/facebook.png" alt=""></a>
+      <a href="#"><img src="./image/twitter.png" alt=""></a>
+      <a href="#"><img src="./image/in.png" alt=""></a>
+      <a href="#"><img src="./image/pinterest.png" alt=""></a>
+      <a href="#"><img src="./image/insta.png" alt=""></a>
+      <a href="#"><img src="./image/git.png" alt=""></a>
+      <a href="#"><img src="./image/wifw.png" alt=""></a>
     </div>
-  </div>
-  <!--block awesome-->
-  <div class="page">
-    <div class="page__title">
-      <h2 class="title__content">WHY THIS IS AWESOME</h2>
-      <hr>
+    <div class="footer__copyright">
+      <p>© 2015 Axure Themes</p>
     </div>
-    <div class="page__subtitle">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <div class="page__main main">
-      <div class="main__section">
-        <img src="/image/about_icon_1.jpg" alt="icon1">
-        <h4 class="section__title">Thoughtful Design</h4>
-        <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
-      </div>
-      <div class="main__section">
-        <img src="/image/about_icon_2.jpg" alt="icon1">
-        <h4 class="section__title">Thoughtful Design</h4>
-        <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
-      </div>
-      <div class="main__section">
-        <img src="./image/about_icon_3.jpg" alt="icon1">
-        <h4 class="section__title">Thoughtful Design</h4>
-        <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
-      </div>
-    </div>
-  </div>
+  </footer>
 </body>
 
 </html>
