@@ -1,0 +1,37 @@
+.contacts {
+  text-align: center;
+  height: 722px;
+  padding-top: 50px;
+}
+
+.contact__form {
+  display: flex;
+  padding-top: 35px;
+}
+
+.contact__form input {
+  height: 38px;
+  width: 570px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  margin-bottom: 50px;
+  margin-right: 30px;
+
+}
+
+.form__message {
+  height: 214px;
+  width: 570px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+}
+
+.contacts button {
+  width: 370px;
+}

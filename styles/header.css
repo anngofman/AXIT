@@ -1,0 +1,36 @@
+.page-header {
+  height: 75px;
+  background: black;
+  color: #fff;
+  padding-right: 170px;
+  width: 100%;
+}
+
+.main-nav__logo {
+  padding: 22px 0 22px 115px;
+  display: inline;
+  float: left;
+}
+
+.main-nav__item {
+  list-style-type: none;
+  display: inline;
+  float: right;
+  min-width: 113px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 28px 0;
+}
+.main-nav__item:hover{
+background: #EC7979;
+}
+.main-nav__item:active{
+  background: #AB4949;
+}
+
+.main-nav__link {
+  text-decoration: none;
+  color: #fff;
+}

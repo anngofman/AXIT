@@ -1,0 +1,100 @@
+.tabs {
+  height: 540px;
+  margin: 100px auto 0;
+}
+
+.tabs>input[type="radio"] {
+  display: none;
+}
+
+.tabs>div {
+
+  display: none;
+  border: 1px solid #C6CBCD;
+  margin-top: 10px;
+}
+
+#tab-btn-1:checked~.content1,
+#tab-btn-2:checked~.content2,
+#tab-btn-3:checked~.content3 {
+  display: block;
+}
+
+.tabs>label {
+  padding: 10px 70px;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.tabs>label:not(:first-of-type) {
+  border-left: none;
+}
+
+.tabs>input[type="radio"]:checked+label {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #C6CBCD;
+  border-left: 1px solid #C6CBCD;
+  border-right: 1px solid #C6CBCD;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.tabs .content {
+  height: 501px;
+
+}
+
+.tabs__inner-title {
+  width: 570px;
+  height: 500px;
+  display: inline-block;
+  padding: 0 30px 54px 100px;
+}
+
+.content__img {
+  float: right;
+  height: 500px;
+  width: 470px;
+  overflow: hidden;
+  position: relative;
+}
+
+.tabs__inner-title .content__title {
+  width: 570px;
+  height: 124px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 40px 0;
+}
+
+.content__btn {
+  width: 270px;
+  height: 58px;
+  background: #EC7979;
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.tabs__inner-title .content__text {
+  width: 570px;
+  height: 210px;
+  margin: 27px 0;
+}
+
+
+.content__btn:hover {
+  background: #AB4949;
+}
+
+.content__btn:active {
+  box-shadow: 0px 0px 10px 0px #AB4949;
+  background: #EC7979;
+}
