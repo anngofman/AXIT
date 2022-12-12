@@ -9,9 +9,10 @@
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
+
 
 .banner .container {
   padding-top: 200px;

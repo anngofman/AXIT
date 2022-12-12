@@ -21,6 +21,9 @@ body {
   min-width: 1510px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 
 
