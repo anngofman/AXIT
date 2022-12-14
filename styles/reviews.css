@@ -5,7 +5,7 @@
 }
 
 .rectangle {
-  width: 370px;
+  width: 100%;
   height: 180px;
   background-color: #E2E2E2;
   border-radius: 10px;
@@ -29,9 +29,11 @@
 
 .section__customers {
   height: 200px;
-  width: 370px;
+  width: 100%;
 }
-
+.reviews__main > .main__section{
+  width: 30%;
+}
 .reviews__main {
   display: flex;
   justify-content: space-between;
@@ -39,7 +41,7 @@
 
 .section__person {
   height: 200px;
-  width: 370px;
+  width: 100%;
   display: flex;
   align-items: center;
 }

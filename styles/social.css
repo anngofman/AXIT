@@ -18,12 +18,14 @@
 
 .social .container {
   display: flex;
+  height: 100%;
 }
 
 .social__contacts {
-  width: 700px;
+  min-width: 60%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-decoration: none;
+  height: 100%;
 }

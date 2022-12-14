@@ -27,12 +27,12 @@
 .awesome__main {
   margin: 55px 0 50px;
   height: 383px;
-  display: flex;
+  display: flex; 
   justify-content: space-between;
 }
 
 .main__section {
-  width: 370px;
+  width: 100%;
   margin: 15px 0 0 0;
 }
 

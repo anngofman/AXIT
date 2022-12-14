@@ -58,7 +58,7 @@
 .content__img {
   float: right;
   height: 500px;
-
+max-width: 470px;
   overflow: hidden;
   position: relative;
 }
