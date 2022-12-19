@@ -7,11 +7,15 @@
 .contact__form {
   display: flex;
   padding-top: 35px;
+  width: 100%;
+  justify-content: space-between;
 }
-
+.contact__form > .form__item{
+  width: 49%;
+}
 .contact__form input {
   height: 38px;
-  width: 570px;
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -24,7 +28,7 @@
 
 .form__message {
   height: 214px;
-  width: 570px;
+  width: 49%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -33,5 +37,5 @@
 }
 
 .contacts button {
-  width: 370px;
+  width: 30%;
 }

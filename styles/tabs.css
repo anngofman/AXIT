@@ -8,7 +8,7 @@
 }
 
 .tabs>div {
-
+max-width: 100%;
   display: none;
   border: 1px solid #C6CBCD;
   margin-top: 10px;
@@ -44,32 +44,37 @@
 }
 
 .tabs .content {
-  height: 501px;
+  height: 500px;
+  width: 100%;
 
 }
 
 .tabs__inner-title {
-  width: 570px;
-  height: 500px;
+  height: 100%;
+  max-width: 60%;
   display: inline-block;
   padding: 0 30px 54px 100px;
 }
 
 .content__img {
   float: right;
-  height: 500px;
-max-width: 470px;
+  height: 100%;
+max-width: 40%;
   overflow: hidden;
   position: relative;
 }
+.content__img > img {
+  max-width: 100%;
+  height: 100%;
+}
 
 .tabs__inner-title .content__title {
-  width: 570px;
-  height: 124px;
+  max-width: 82%;
+  height: 25%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 30px;
-  padding: 40px 0;
+  padding: 8% 0;
 }
 
 .content__btn {
@@ -84,7 +89,7 @@ max-width: 470px;
 }
 
 .tabs__inner-title .content__text {
-  width: 570px;
+  max-width: 100%;
   height: 210px;
   margin: 27px 0;
 }

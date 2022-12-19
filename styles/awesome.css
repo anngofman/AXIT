@@ -14,7 +14,7 @@
 
 .content__separator {
   margin: 0 auto;
-  width: 170px;
+  width: 15%;
   border: 1px solid #EC7979;
   height: 0;
   border-bottom: none;
@@ -43,7 +43,6 @@
 
 .section__text {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
   font-weight: 400;
   padding: 0 15px;
 }

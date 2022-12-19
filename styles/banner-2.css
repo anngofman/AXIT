@@ -19,8 +19,15 @@
 .banner__btn--width {
   background: none;
   border: 2px solid white;
-  width: 370px;
+  width: 30%;
   height: 58px;
   font-size: 18px;
   color: #fff;
+}
+.banner-2__content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  text-align: center;
 }
