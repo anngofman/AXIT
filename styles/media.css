@@ -74,7 +74,7 @@
     padding-top: 50px;
   }
 
-  .reviews__main {
+  .sliders {
     padding-top: 50px;
   }
 
@@ -370,14 +370,14 @@
 
 @media (max-width:321px) {
   .banner__content .content__title{
-    font-family: Raleway;
-font-size: 36px;
-font-weight: 500;
-line-height: 42px;
-letter-spacing: 0em;
-text-align: center;
-
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
   }
+
   .banner__btn {
     width: 100%;
 } 
@@ -431,4 +431,52 @@ text-align: center;
     height: 180px;
   }
   
+  .content__heading{
+    font-size: 18px;
+  }
+  .content__desc {
+    margin: 25px auto 0;
+  }
+  .main__section img {
+    max-width: 132px;
+    max-height: 132px;
+  }
+  .awesome__main {
+    margin: 50px 0 50px;
+}
+.content__separator{
+  width: 134px;
+}
+.pricing{
+  max-height: 1480px;
+  padding-top: 0;
+}
+.pricing__inner-title .content__heading{
+  font-size: 24px;
+}
+.section__item-title { 
+font-size: 18px;
+height: 47px;
+}
+.section__item-price{
+  font-size: 24px;
+  height: 78px;
+}
+.section__item-price+div, .section__item{
+  font-size: 14px;
+  height: 40px;
+}
+.pricing__main .main__section {
+  margin-bottom: 25px;
+}
+.pricing__main {
+  margin-top: 15px;
+}
+.reviews__main {
+  padding-top: 25px;
+  flex-direction: row;
+}
+.reviews__main > input[type="radio"] {
+  display: inline;
+}
 }

@@ -3,7 +3,9 @@
   padding-top: 50px;
   text-align: center;
 }
-
+.reviews__main > input[type="radio"] {
+  display: none;
+}
 .rectangle {
   width: 100%;
   height: 180px;
@@ -34,7 +36,7 @@
 .reviews__main > .main__section{
   width: 30%;
 }
-.reviews__main {
+.sliders {
   display: flex;
   justify-content: space-between;
 }
