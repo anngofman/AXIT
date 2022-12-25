@@ -3,9 +3,11 @@
   padding-top: 50px;
   text-align: center;
 }
-.reviews__main > input[type="radio"] {
+
+.reviews__main>input[type="radio"] {
   display: none;
 }
+
 .rectangle {
   width: 100%;
   height: 180px;
@@ -17,25 +19,27 @@
   position: relative;
 }
 
-.rectangle::after{
+.rectangle::after {
   content: '';
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 20px solid #E2E2E2;
-    position: absolute;
-    top: 180px;
-    left: 100px;
-  }
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #E2E2E2;
+  position: absolute;
+  top: 180px;
+  left: 100px;
+}
 
 .section__customers {
   height: 200px;
   width: 100%;
 }
-.reviews__main > .main__section{
+
+.sliders>.main__section {
   width: 30%;
 }
+
 .sliders {
   display: flex;
   justify-content: space-between;

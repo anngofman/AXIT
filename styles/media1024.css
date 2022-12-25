@@ -1,0 +1,102 @@
+@media (max-width: 1024px) {
+  .container {
+    min-width: 100%;
+    padding: 0 15px;
+  }
+
+  .banner>.container {
+    max-width: 100%;
+    padding-left: 10%;
+  }
+
+  .content__title {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .banner {
+    max-height: 800px;
+  }
+
+  h4,
+  .social__content .content__title {
+    font-size: 18px;
+  }
+
+
+  .tabs {
+    height: 425px;
+    margin-top: 50px;
+  }
+
+  .tabs .content {
+    height: 385px;
+
+  }
+
+  .tabs__inner-title .content__text {
+    margin: 38px 0;
+    height: 112px;
+  }
+
+  .awesome {
+    height: 628px;
+    padding-top: 45px;
+  }
+
+  .content__heading {
+    font-size: 24px;
+    padding: 30px 0;
+  }
+
+  .awesome__main {
+    margin: 0 0 50px;
+  }
+
+  .content__desc {
+    margin: 40px auto 0;
+  }
+
+
+  .pricing {
+    height: 770px;
+  }
+
+  .pricing__main .main__section {
+    max-height: 455px;
+  }
+
+  .reviews {
+    height: 615px;
+    padding-top: 50px;
+  }
+
+  .sliders {
+    padding-top: 50px;
+  }
+
+
+  .banner-2 {
+    height: 358px;
+  }
+
+  .contacts {
+    height: 612px;
+    padding-top: 50px;
+  }
+
+  .footer__image {
+    max-width: 21%;
+  }
+
+  .main-nav__logo {
+    padding-left: 25px;
+  }
+
+  .main-nav__list {
+    padding-right: 15px;
+  }
+}
