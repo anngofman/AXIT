@@ -130,7 +130,7 @@ span {
   font-size: 14px;
   border: none;
   border-bottom: 1px solid #BDBDBD;
-
+  outline: none;
 }
 
 .form__btm {
